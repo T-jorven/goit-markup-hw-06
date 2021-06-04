@@ -784,6 +784,7 @@ img {
   position: absolute;
   left: 0;
   top: 0px;
+  opacity: 1;
   transition-property: opacity, border ;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
@@ -825,6 +826,7 @@ img {
 
   margin-left: 124px;
   margin-right: 124px;
+  margin-top: 30px;
 }
 /*  end o modal*/
 .product-animation {
