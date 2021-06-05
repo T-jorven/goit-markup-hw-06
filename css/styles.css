@@ -570,7 +570,7 @@ img {
 
 /*--------------------SUBSCRIPTION FORM-----------------*/
 .subscription {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .subscription-box{
   display: flex;
