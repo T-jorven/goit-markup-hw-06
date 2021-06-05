@@ -735,9 +735,6 @@ img {
   outline: none;
   border-color: var(--accent-color);
 }
-.modal-form-message:placeholder {
-  margin-left: 16px;
-}
 .modal-form-head {
   font-size: 20px;
   line-height: 1.1;
