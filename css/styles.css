@@ -527,6 +527,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--clear-white);
+  margin-bottom: 20px;
 }
 .flex-join {
   display: flex;
@@ -571,27 +572,58 @@ img {
 .subscription {
   margin-left: 93px;
 }
+.subscription-box{
+  display: flex;
+}
 .subscription-btn {
   background-color: var(--accent-color);
-  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  padding-left: 29px;
-  padding-right: 29px;
+  margin-left: 12px;
+  padding-left: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 0;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  transition: background 250ms var(--transition-cubic);
+}
+.email-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--footer-background);
+  border-radius: 4px;
+  margin: 0px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  display: flex;
+}
 
+.email-input::placeholder {
+  
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-btn-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   color: var(--item-description);
-;
-
+}
+.subscription-btn:hover,
+.subscription-btn:focus {
+  background: var(--button-focus);
 }
 .icon-send {
   fill: var(--clear-white);
@@ -772,7 +804,7 @@ img {
   overflow: hidden;
 }
 .agreement-text{
-  margin-left: 24px;
+  margin-left: 26px;
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
   background-color: #188ce8;
@@ -795,7 +827,7 @@ img {
 }
 .icon-checked {
   position: absolute;
-  left: 7;
+  left: 0px;
   top: 0px;
   opacity: 0;
   transition-property: opacity;
@@ -823,10 +855,15 @@ img {
   letter-spacing: 0.06em;
   color: var(--clear-white);
   border: none;
-
+  cursor: pointer;
   margin-left: 124px;
   margin-right: 124px;
   margin-top: 30px;
+  transition: background 250ms var(--transition-cubic);
+}
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background: var(--button-focus);
 }
 /*  end o modal*/
 .product-animation {
