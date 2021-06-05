@@ -569,6 +569,9 @@ img {
 }
 
 /*--------------------SUBSCRIPTION FORM-----------------*/
+.email-input, select, textarea {
+  color: var(--clear-white);
+}
 .subscription {
   margin-left: auto;
 }
