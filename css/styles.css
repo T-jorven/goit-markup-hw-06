@@ -569,7 +569,7 @@ img {
 }
 
 /*--------------------SUBSCRIPTION FORM-----------------*/
-.email-input, select, textarea {
+.email-input{
   color: var(--clear-white);
 }
 .subscription {
